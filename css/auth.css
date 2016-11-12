@@ -1,0 +1,71 @@
+body.auth{
+	background: none repeat scroll 0 0 #F0EEE9;
+	color: #333333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+.clear{
+	clear:both;
+	display:block;
+}
+.auth .login_splash{
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 5px #CECECE;
+	margin: 50px auto 0;
+	max-width: 440px;
+	padding: 15px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+}
+.auth .login_splash h1{
+	background: none repeat scroll 0 0 #0071FF;
+	color: #FFFFFF;
+	display: block;
+	margin: 0;
+	padding: 5px;
+}
+.auth .login_splash h1 span.login{
+	float: right;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+.auth .login_splash h1 a.brand{
+	background: url("/images/logo2.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 34px;
+	overflow: hidden;
+	padding: 0;
+	text-indent: -999px;
+	width: 97px;
+	float: left;
+}
+.auth .login_splash #facebook_login{
+	background: none repeat scroll 0 0 #48649f;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 7px 10px;
+	text-decoration: none;
+	width: auto;
+	transition: background-color 0.2s linear 0s;
+}
+.auth .login_splash #facebook_login:hover{
+	background: none repeat scroll 0 0 #3c5a98;
+}
+.auth .login_splash #facebook_login i.f{
+	background: url("/images/fb_login_sprite.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: 22px;
+	padding-right: 10px;
+	vertical-align: text-top;
+	width: 12px;
+}
+.auth .login_splash .intro{
+	color: #666666;
+	line-height: 24px;
+	padding: 5px 10px;
+	text-align: left;
+}

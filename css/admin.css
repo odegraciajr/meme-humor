@@ -1,0 +1,120 @@
+.custom header#header .navbar-inverse.admin .navbar-inner {
+    background: none repeat scroll 0 0 #a0011b;
+    border: 0 none;
+    box-shadow: none;
+	background-repeat: repeat;
+	background-color: #a0011b;
+	filter: none;
+	background-image: none;
+	border-bottom: 1px solid #8a2737;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.3);
+}
+.custom header#header .navbar-inverse.admin .divider-vertical {
+    border-left-color: #A14C5A;
+    border-right: 0 none;
+    height: 46px;
+    margin: 0;
+}
+.custom header#header .navbar-inverse.admin .nav > li > a:hover,
+.custom header#header .navbar-inverse.admin .nav .active > a,
+.custom header#header .navbar-inverse.admin .nav .active > a:hover,
+.custom header#header .navbar-inverse.admin .nav .active > a:focus
+{
+	color:#efefef;
+	background:#9f263a;
+	box-shadow:none;
+}
+.custom header#header .navbar-inverse.admin .nav li.dropdown.open > .dropdown-toggle,
+.custom header#header .navbar-inverse.admin .nav li.dropdown.active > .dropdown-toggle,
+.custom header#header .navbar-inverse.admin .nav li.dropdown.open.active > .dropdown-toggle{
+	background:#9f263a;
+}
+.custom .admin .dropdown-menu li > a:hover,
+.custom .admin .dropdown-menu li > a:focus,
+.custom .admin .dropdown-submenu:hover > a {
+	background:#A0011B;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.custom #main_admin{
+	background: none repeat scroll 0 0 transparent;
+	height: auto;
+	width: 100%;
+}
+.custom #main_admin .admin-home{
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 1px 1px #CECECE;
+}
+.custom #main_admin .admin-home .headline{
+	background-color: #A0011B;
+	height: 45px;
+	padding: 10px;
+	position: relative;
+}
+.custom #main_admin .admin-home .headline h1{
+	 color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 0;
+    text-overflow: ellipsis;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.custom #main_admin .admin-home .post_main{
+	padding:12px;
+}
+
+.custom #main_admin .post_main .mod_tb{
+	vertical-align: top;
+    width: 100%;
+}
+.custom #main_admin .post_main .mod_tb th{}
+.custom #main_admin .post_main .mod_tb th.check{
+	width: 10px;
+}
+.custom #main_admin .post_main .mod_tb th.id{
+	width: 40px;
+}
+.custom #main_admin .post_main .mod_tb th.img{
+	width: 300px;
+}
+.custom #main_admin .post_main .mod_tb th.title{
+	width: 465px;
+}
+.custom #main_admin .post_main .mod_tb th.edit{
+	text-align: center;
+}
+.custom #main_admin .post_main .mod_tb th.edit .dropdown-menu{
+	text-align:left;
+}
+.custom #main_admin .post_main .mod_tb td{}
+.custom #main_admin .post_main .mod_tb td.id{}
+.custom #main_admin .post_main .mod_tb td.img{}
+.custom #main_admin .post_main .mod_tb td.img img.post_img{
+	 max-width: 300px;
+}
+.custom #main_admin .post_main .mod_tb td.title{}
+.custom #main_admin .post_main .mod_tb td.title .table th,
+.custom #main_admin .post_main .mod_tb td.title .table td{
+	border-left: 0 none;
+}
+.custom #main_admin .post_main .mod_tb td.title .table td.desc{
+	color: #666666;
+	width: 30%;
+}
+.custom #main_admin .post_main .mod_tb td.title .table td.text{
+	
+}
+.custom #main_admin .post_main .mod_tb td.edit{
+	text-align: center;
+}
+.custom #main_admin .post_main .mod_tb td.edit .btn{
+	margin-bottom: 10px;
+	width: 80px;
+}
+.custom #main_admin .fb_share_main{
+	padding: 25px;
+    text-align: center;
+}
